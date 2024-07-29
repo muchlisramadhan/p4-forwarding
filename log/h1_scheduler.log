@@ -1,0 +1,23 @@
+
+Mon Jul 29 03:42:09 2024: new connection (139754460927744) opened!
+
+Schedule time wait: -0.008710861206054688
+Warning: Invalid start time in the past. This event won't be scheduled. Consider rerunning the experiment with more time margin
+
+Mon Jul 29 03:42:09 2024: task received!
+Task(arp -s 10.0.1.254 00:00:00:00:01:01, {'start': 1722224529.8932974, 'duration': 0, 'args': (), 'kwargs': {}})
+Scheduler 139754452535040 started!
+
+
+Mon Jul 29 03:42:09 2024: connection 139754460927744 closed!
+
+
+Mon Jul 29 03:42:09 2024: task started with PID 132592!
+Task(arp -s 10.0.1.254 00:00:00:00:01:01, {'start': 1722224529.8932974, 'duration': 0, 'args': (), 'kwargs': {}})
+
+
+Mon Jul 29 03:42:09 2024: task with PID 132592 exited with code 0.
+
+
+Mon Jul 29 03:42:09 2024: scheduler 139754452535040 closed!
+

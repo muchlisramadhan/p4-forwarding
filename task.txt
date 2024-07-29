@@ -1,0 +1,10 @@
+h1 0 0 arp -s 10.0.1.254 00:00:00:01:01:01
+h1 0 0 ip route add default via 10.0.1.254
+
+h2 0 0 arp -s 10.0.1.254 00:00:00:02:02:02
+h2 0 0 ip route del default
+h2 0 0 ip route add default via 10.0.2.254
+
+h3 0 0 arp -s 10.0.1.254 00:00:00:03:03:03
+h3 0 0 ip route del default
+h3 0 0 ip route add default via 10.0.3.254

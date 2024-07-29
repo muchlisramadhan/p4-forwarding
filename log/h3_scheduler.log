@@ -1,0 +1,57 @@
+
+Mon Jul 29 03:36:31 2024: new connection (140639685302016) opened!
+
+Schedule time wait: -0.03688693046569824
+Warning: Invalid start time in the past. This event won't be scheduled. Consider rerunning the experiment with more time margin
+
+Mon Jul 29 03:36:31 2024: task received!
+Task(arp, {'start': 1722224191.8516455, 'duration': 0.0, 'args': ('-s', '10.0.1.254', '00:00:00:03:03:03'), 'kwargs': {}})
+Scheduler 140639676909312 started!
+
+
+Mon Jul 29 03:36:31 2024: task started with PID 116943!
+Task(arp, {'start': 1722224191.8516455, 'duration': 0.0, 'args': ('-s', '10.0.1.254', '00:00:00:03:03:03'), 'kwargs': {}})
+
+
+Mon Jul 29 03:36:31 2024: task with PID 116943 exited with code 0.
+
+
+Mon Jul 29 03:36:31 2024: scheduler 140639676909312 closed!
+
+Schedule time wait: -0.0510096549987793
+Warning: Invalid start time in the past. This event won't be scheduled. Consider rerunning the experiment with more time margin
+
+Mon Jul 29 03:36:31 2024: task received!
+Task(ip, {'start': 1722224191.8516455, 'duration': 0.0, 'args': ('route', 'del', 'default'), 'kwargs': {}})
+Scheduler 140639668516608 started!
+
+
+Mon Jul 29 03:36:31 2024: task started with PID 116946!
+Task(ip, {'start': 1722224191.8516455, 'duration': 0.0, 'args': ('route', 'del', 'default'), 'kwargs': {}})
+
+
+Mon Jul 29 03:36:31 2024: task with PID 116946 exited with code 255.
+
+
+Mon Jul 29 03:36:31 2024: scheduler 140639668516608 closed!
+
+Schedule time wait: -0.0599675178527832
+Warning: Invalid start time in the past. This event won't be scheduled. Consider rerunning the experiment with more time margin
+
+Mon Jul 29 03:36:31 2024: task received!
+Task(ip, {'start': 1722224191.8516455, 'duration': 0.0, 'args': ('route', 'add', 'default', 'via', '10.0.3.254'), 'kwargs': {}})
+Scheduler 140639676909312 started!
+
+
+Mon Jul 29 03:36:31 2024: connection 140639685302016 closed!
+
+
+Mon Jul 29 03:36:31 2024: task started with PID 116949!
+Task(ip, {'start': 1722224191.8516455, 'duration': 0.0, 'args': ('route', 'add', 'default', 'via', '10.0.3.254'), 'kwargs': {}})
+
+
+Mon Jul 29 03:36:31 2024: task with PID 116949 exited with code 255.
+
+
+Mon Jul 29 03:36:31 2024: scheduler 140639676909312 closed!
+
